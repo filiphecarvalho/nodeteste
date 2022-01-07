@@ -1,0 +1,24 @@
+{
+  "name": "nodeteste",
+  "version": "1.0.0",
+  "description": "Node Teste",
+  "main": "index.js",
+  "scripts": {        
+    "build": "babel src --out-dir dist",
+    "start": "npm run build && node dist/app.js",
+    "dev": "babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filipe Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5"
+  }
+}
