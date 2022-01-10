@@ -3,7 +3,7 @@ import express, { Router } from "express"
 const router = express.Router();
 
 router.get('/', (req, res) => res.send([{
-    name: "default product",
+    name: "Default product",
     description: "product description",
     price: 100
 }]));
